@@ -3,13 +3,13 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PKG_NAME = "oneNeuron_pkg"
+PKG_NAME = "oneneuron_pkg"
 USER_NAME = "Vinayak-HUB1"
-PROJECT_NAME = "oneNeuron-pkg"
+PROJECT_NAME = "Oneneuron_pkg"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.5",
+    version="0.0.6",
     author=USER_NAME,
     author_email="dumbre.vinayak@gmail.com",
     description="A small package for perceptron",
