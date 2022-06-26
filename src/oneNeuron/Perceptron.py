@@ -3,7 +3,7 @@ import os
 import joblib
 
 
-class Perceptron:
+class perceptron:
     def __init__(self, eta: float=None, epochs: int=None):
         self.weights = np.random.randn(3) * 1e-4 # small random weights
         training = (eta is not None) and (epochs is not None)
